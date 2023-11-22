@@ -18,10 +18,20 @@ def resta(X,Y):
 	
 """ PW-E6-d): Construir un PW que compute f(X)=log_10(X). Empleando macros: producto, resta y asignacion """ 
 # Pasar a f como argumento las k varibles (X1, X2, ...Xk)  del programa while k variables construido
-def pw(...):
+def pw(X1,X2,X3,X4,X5):
+   X1 = succ(X1)
+   while X1==0:
+       continue
+   X2 = 1
+   X4 = resta(X1,X2)
+   while X4 != X5:
+        X3 = succ(X3)
+        X2 = X2 * 10
+        X4 = resta(X1,X2)
+   X1 = pred(X3)
+   return X1
 
 
-    return X1
 
 def log_b10(X):
   return print(pw(X,...))
