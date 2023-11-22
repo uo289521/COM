@@ -11,7 +11,7 @@ def pred(Z):
 # Pasar f como argumento las k varibles (X1, X2, ...Xk)  del programa while k variables construido
 def pw(X1,X2,X3):
     """X1 viene el argumento de entrada(input) es decir la x
-    X2 vamos iterar de 1..X
+    X2 vamos iterar de 1.asfsafsdaffsdfsaf.X
     X3 calculamos 2^x
     """
     X3 = 1
